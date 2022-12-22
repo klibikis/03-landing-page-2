@@ -117,12 +117,15 @@ p.button{
 .section1_button1{
   width: 167px;
   height: 50px;
-  background: #6D91EE;
+  background: #5180F7;
   border-radius: 20px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.section1_button1:hover{
+  background: #89a7f2;
 }
 .button_blue{
   width: 280px;
@@ -134,15 +137,21 @@ p.button{
   justify-content: center;
   align-items: center;
 }
+.button_blue:hover{
+  background: #89a7f2;
+}
 .button_orange{
   width: 280px;
   height: 86px;
   border-radius: 71px;
   color: black;
-  background: #EEC04B;
+  background: #eeab00;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.button_orange:hover{
+  background: #fd9311;
 }
 .section1_heading{
   width: 707px;
