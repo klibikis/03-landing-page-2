@@ -71,6 +71,14 @@ font-weight: 250;
 .text_darkblue{
   color: #324473;
 }
+.text_contact_us{
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
 .card_text_margin{
   margin: 0 30px;
 }
@@ -110,11 +118,20 @@ p.button{
 .mb-50{
   margin-bottom: 50px;
 }
+.mb-60{
+  margin-bottom: 60px;
+}
 .mb-70{
   margin-bottom: 70px;
 }
 .mb-125{
   margin-bottom: 125px;
+}
+.gap-15{
+  gap: 15px;
+}
+.gap-35{
+  gap: 35px;
 }
 .gap-45{
   gap: 45px;
@@ -248,3 +265,85 @@ p.button{
   gap: 10px;
 }
 
+
+// TEXT HEADING CORNERS
+.corner_container{
+  position: relative;
+}
+.corner_tl{
+  width: 33px;
+  height: 0px;
+  border: 0.5px solid #6D91EE;
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  transform: rotate(-45deg);
+}
+.corner_tr{
+  width: 33px;
+  height: 0px;
+  border: 0.5px solid #6D91EE;
+  position: absolute;
+  top: 10px;
+  right: -20px;
+  transform: rotate(45deg);
+}
+.corner_bl{
+  width: 33px;
+  height: 0px;
+  border: 0.5px solid #6D91EE;
+  position: absolute;
+  bottom: 10px;
+  left: -20px;
+  transform: rotate(45deg);
+}
+.corner_br{
+  width: 33px;
+  height: 0px;
+  border: 0.5px solid #6D91EE;
+  position: absolute;
+  bottom: 10px;
+  right: -20px;
+  transform: rotate(-45deg);
+}
+
+// PAGE CONTACT US
+
+.container_contact_us{
+  width: 788px;
+  display: flex;
+  gap: 100px;
+}
+.container_contact_us_divider{
+  display: flex;
+  flex-direction: column;
+}
+.contact_us_field{
+  width: 374px;
+  height: 56px;
+  background: #CEDCFF;
+  border-radius: 61px;
+}
+.contact_us_button{
+  width: 168px;
+  height: 56px;
+  border: 3px solid #5180F6;
+  border-radius: 61px;
+}
+.contact_us_form_field{
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+// centered 1st contact us divider container
+.center{
+  align-items: center;
+}
+
+// FOOTER BLUE BACKGROUND
+.background_dark_blue{
+  background: #0C1E49;
+}
+.footer_section_size{
+  height: 145px;
+}
